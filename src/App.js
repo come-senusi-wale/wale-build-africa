@@ -1,24 +1,47 @@
-import logo from './logo.svg';
+import { NavBar } from "./commponent/navbar";
+import { Header } from "./commponent/header";
+import { Crafted } from "./commponent/crafted";
+import { Partner } from "./commponent/ourpartner";
+import { Faq } from "./commponent/faq";
+import { Footer } from "./commponent/footer";
+import { About } from "./commponent/about";
+import { Contact } from "./commponent/contactus";
+import { Home } from "./commponent/home";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { useState } from "react";
+
 import './App.css';
 
 function App() {
+ const [showMobileNav, setShowMobileNav] = useState(false)
+ const NavHandler = () => {
+  setShowMobileNav((current)=>!current)
+}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <section id="app_container">
+      <Router>
+        <NavBar
+         NavHandler = {NavHandler}
+        ></NavBar>
+        <div className={`${showMobileNav ? 'hidden' : ''}`}>
+        <Switch>
+          <Route exact path='/'>
+            <Home></Home>
+          </Route>
+          <Route exact path='/about'>
+            <About></About>
+          </Route>
+          <Route exact path='/contactus'>
+            <Contact></Contact>
+          </Route>
+        </Switch>
+        </div>
+        <Footer></Footer>
+      </Router>
+    </section>
+   </>
   );
 }
 

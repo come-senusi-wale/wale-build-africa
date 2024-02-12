@@ -10,7 +10,7 @@ export const Header = () => {
                 <h1>Supercharging African Communities Building for the OpenWeb</h1>
             </div>
             <div id="text">
-                <p>Experience the future of tge openweb through the African lens.</p>
+                <p>Experience the future of the openweb through the African lens.</p>
             </div>
             <div id="link">
                 <ul>

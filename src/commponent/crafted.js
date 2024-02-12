@@ -5,10 +5,10 @@ export const Crafted = () => {
     return(<>
         <section id="crafted">
             <div id="crafting">
-                <h1>Crafted by MarsX for Innovators</h1>
+                <h1>Crafted by Builders for Builders</h1>
             </div>
             <div id="text">
-                <p>MarsX is a revolutionary design software for startups, solo-entrepreneurs and innovators. Experience it for free.</p>
+                <p>Experience Africans building the dots that connects web2 and Web3.</p>
             </div>
             <div id="mars_type">
                 <ul>

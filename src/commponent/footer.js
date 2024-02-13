@@ -21,8 +21,8 @@ export const Footer = () => {
                 <div id="company" className="mars-footer">
                     <h1>Company</h1>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#" onClick={() => { window.location.href = '/about';}}>About Us</a></li>
+                        <li><a href="#" onClick={() => { window.location.href = '/contactus';}}>Contact Us</a></li>
                     </ul>
                 </div>
                 <div id="resource" className="mars-footer">
@@ -35,7 +35,7 @@ export const Footer = () => {
                 <div id="follow" className="mars-footer">
                     <h1>Follow Us</h1>
                     <ul>
-                        <li><a href="#"><FaFacebookSquare></FaFacebookSquare></a></li>
+                        <li><a href="#" ><FaFacebookSquare></FaFacebookSquare></a></li>
                         <li><a href="#"><FaXTwitter></FaXTwitter></a></li>
                         <li><a href="#"><FaInstagram></FaInstagram></a></li>
                     </ul>

@@ -32,7 +32,7 @@ export const Crafted = () => {
                             </div>
                             <div className="base_line"></div>
                             <div className="text">
-                                <p>3-4 weeks, Program designed to equip builder with the necessary skills and knowledge to engage effectively with Near's technology and opportunities.</p>
+                                <p>3-4 weeks Program designed to equip builders with the necessary skills and knowledge to engage effectively with Near's technology and opportunities.</p>
                             </div>
                         </div>
                     </li>

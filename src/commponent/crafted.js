@@ -15,36 +15,36 @@ export const Crafted = () => {
                     <li>
                         <div>
                             <div className="range">
-                                <h1>39%</h1>
-                                <span>Faster</span>
+                                <h1>Onboard</h1>
+                                {/* <span>Identification and Mapping</span> */}
                             </div>
                             <div className="base_line"></div>
                             <div className="text">
-                                <p>Experience a 39% increase in design speed with MarsX's innovative software solutions.</p>
+                                <p>Identification, mapping and onboarding of active web2 buidl communities in Africa into web3.</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div>
                             <div className="range">
-                                <h1>20%</h1>
-                                <span>Cooler</span>
+                                <h1>Training</h1>
+                                {/* <span>3-4 weeks Educational Program (3-4 Weeks).</span> */}
                             </div>
                             <div className="base_line"></div>
                             <div className="text">
-                                <p>Experience a 39% increase in design speed with MarsX's innovative software solutions.</p>
+                                <p>3-4 weeks, Program designed to equip builder with the necessary skills and knowledge to engage effectively with Near's technology and opportunities.</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div>
                             <div className="range">
-                                <h1>99.98%</h1>
-                                <span>Uptime</span>
+                                <h1>Integration</h1>
+                                {/* <span>Grants and Ecosystem access</span> */}
                             </div>
                             <div className="base_line"></div>
                             <div className="text">
-                                <p>Experience a 39% increase in design speed with MarsX's innovative software solutions.</p>
+                                <p> Facilitate the seamless integration of onboarded communities into the web3 and Near ecosystem. This involves providing access to funds and resources through the necessary funding channels on Near.</p>
                             </div>
                         </div>
                     </li>

@@ -1,6 +1,6 @@
 import React, {useState, useRef } from "react";
 import '../style/navbar.css';
-import logo from "./../image/logo.jpg";
+import logo from "./../image/builogo.jpeg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -34,7 +34,7 @@ export const NavBar = ({NavHandler}) => {
                             <div id="logo">
                                 <div>
                                     <img src={logo} alt=""  />
-                                    <h2>BldAfrica</h2>
+                                    <h2>BuidlAfrica</h2>
                                 </div>
                             </div>
                             <div>

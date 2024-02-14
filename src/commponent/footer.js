@@ -1,6 +1,6 @@
 import React, {useState, useRef } from "react";
 import '../style/footer.css';
-import logo from "./../image/logo.jpg";
+import logo from "./../image/builogo.jpeg";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 

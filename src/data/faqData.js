@@ -2,8 +2,8 @@ export const faq = {
    data : [
     {
         id:'1',
-        title:'What is MarsX?',
-        description:'MarsX is a leading provider of innovative design software solutions, empowering creativity and design innovation.'
+        title:'What is BuildAfrica?',
+        description:'Discover more about Build Africa.'
     },
     {
         id:'2',

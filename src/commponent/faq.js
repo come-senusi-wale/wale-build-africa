@@ -13,7 +13,7 @@ export const Faq = () => {
                     <h1>F.A.Q.</h1>
                 </div>
                 <div id="faq-text">
-                    <p>Discover more about MarsX's innovative design software solutions.</p>
+                    <p>Discover more about BuildAfrica.</p>
                 </div>
                 <div id="faq-question">
                     {

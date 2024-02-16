@@ -8,7 +8,7 @@ export const faq = {
     {
         id:'2',
         title:'What are the advantages of using BuildAfrica?',
-        description:"MarsX offers tailored software solutions to meet your unique design needs, with dedicated support to assist you every step of the way."
+        description:"BuildAfrica offers tailored software solutions to meet your unique design needs, with dedicated support to assist you every step of the way."
     },
     {
         id:'3',

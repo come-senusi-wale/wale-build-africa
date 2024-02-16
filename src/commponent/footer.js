@@ -1,7 +1,7 @@
 import React, {useState, useRef } from "react";
 import '../style/footer.css';
 import logo from "./../image/builogo.jpeg";
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
@@ -15,7 +15,7 @@ export const Footer = () => {
                             <img src={logo} alt=""/>
                         </div>
                     </h1>
-                    <p>© 2024 MarsX Innovations.</p>
+                    <p>© 2024 African Buidl Innovations.</p>
                     <p>All rights reserved.</p>
                 </div>
                 <div id="company" className="mars-footer">
@@ -35,9 +35,8 @@ export const Footer = () => {
                 <div id="follow" className="mars-footer">
                     <h1>Follow Us</h1>
                     <ul>
-                        <li><a href="#" ><FaFacebookSquare></FaFacebookSquare></a></li>
-                        <li><a href="#"><FaXTwitter></FaXTwitter></a></li>
-                        <li><a href="#"><FaInstagram></FaInstagram></a></li>
+                        <li><a href="#" ><FaTelegramPlane></FaTelegramPlane></a></li>
+                        <li><a href="https://x.com/BuidlAfrica?s=09" target="blank"><FaXTwitter></FaXTwitter></a></li>
                     </ul>
                 </div>
             </div>
